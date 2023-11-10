@@ -11,3 +11,26 @@ Nel stampare la ul in html, si potrebbe inserire anche un tag img, la descrizion
 Spostiamo l’array dei post in un file separato da importare poi dentro il controller
 */
 
+
+// import modules
+const express = require('express');
+const dotenv = require('dotenv').config();
+const app = express();
+
+// static files
+app.use(express.static('public'));
+
+// define routes
+app.get('/', (req, res) =>
+{
+	res.send('<h1>Benvenuto nel mio blog!</h1>');
+});
+
+
+
+
+// start server
+app.listen(process.env.PORT || 3000, () =>
+{
+	console.log(`Server running on http://localhost:${process.env.PORT}`);
+});
