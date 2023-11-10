@@ -2,31 +2,31 @@
 	{
 		"titolo": "Esplorando JavaScript per principianti",
 		"contenuto": "Un'introduzione al linguaggio JavaScript, perfetto per chi inizia a programmare.",
-		"immagine": "path/to/javascript-beginners.jpg",
+		"immagine": "javascript.png",
 		"tags": ["JavaScript", "Programming", "Beginners"]
 	},
 	{
 		"titolo": "React e le sue infinite possibilità",
 		"contenuto": "Approfondimento sul framework React e come può essere utilizzato per creare applicazioni web interattive.",
-		"immagine": "path/to/react-possibilities.jpg",
+		"immagine": "react.png",
 		"tags": ["React", "Web Development", "UI/UX"]
 	},
 	{
 		"titolo": "La discografia di Taylor Swift e le sue evoluzioni",
 		"contenuto": "Un'analisi dell'evoluzione musicale di Taylor Swift attraverso i suoi album.",
-		"immagine": "path/to/taylor-swift-discography.jpg",
+		"immagine": "taylor.jpg",
 		"tags": ["Taylor Swift", "Music", "Pop"]
 	},
 	{
 		"titolo": "U2: Una leggenda nel mondo del rock",
 		"contenuto": "Esplorazione della carriera e dei successi dei U2, una delle band rock più influenti.",
-		"immagine": "path/to/u2-rock-legend.jpg",
+		"immagine": "u2.png",
 		"tags": ["U2", "Rock Music", "Legends"]
 	},
 	{
 		"titolo": "Lana Del Rey: Una voce unica nel panorama musicale moderno",
 		"contenuto": "Approfondimento sullo stile musicale unico e le influenze di Lana Del Rey.",
-		"immagine": "path/to/lana-del-rey-style.jpg",
+		"immagine": "lana.png",
 		"tags": ["Lana Del Rey", "Music", "Alternative Pop"]
 	}
 ]

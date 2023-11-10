@@ -19,12 +19,15 @@ const app = express();
 
 //import routes
 const homeController = require('./controllers/home');
+const postsController = require('./controllers/posts');
 
 // static files
 app.use(express.static('public'));
 
 // define routes
 app.get('/', homeController.index);
+
+app.get('/posts', postsController.index);
 
 
 
