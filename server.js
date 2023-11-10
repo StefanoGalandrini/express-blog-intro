@@ -17,14 +17,14 @@ const express = require('express');
 const dotenv = require('dotenv').config();
 const app = express();
 
+//import routes
+const homeController = require('./controllers/home');
+
 // static files
 app.use(express.static('public'));
 
 // define routes
-app.get('/', (req, res) =>
-{
-	res.send('<h1>Benvenuto nel mio blog!</h1>');
-});
+app.get('/', homeController.index);
 
 
 
