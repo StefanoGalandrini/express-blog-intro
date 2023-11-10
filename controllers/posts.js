@@ -13,7 +13,7 @@ function index(req, res)
 	const posts = JSON.parse(fs.readFileSync(path.join(__dirname, "../db", "./posts.json"), "utf-8"));
 
 	// read HTML template
-	const postTemplate = fs.readFileSync(path.join(__dirname, "../db", "./posts.html"), "utf-8");
+	const postTemplate = fs.readFileSync(path.join(__dirname, "../db", "./posts-template.html"), "utf-8");
 
 	// generate HTML
 	const html = posts.map(post =>
